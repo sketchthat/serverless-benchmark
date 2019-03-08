@@ -1,23 +1,23 @@
 # Serverless Benchmark
 
 - [Cold Start](#cold-start)
-  - Information
-  - Architecture
-    - Amazon Web Services
-    - Google Cloud Platform
-    - Microsoft Azure
-  - Trigger Function
-  - Cold Start Function
-  - Results
+  - [Information](#information)
+  - [Architecture](#architecture)
+    - [Amazon Web Services](#amazon-web-services)
+    - [Google Cloud Platform](#google-cloud-platform)
+    - [Microsoft Azure](#microsoft-azure)
+  - [Trigger Function](#trigger-function)
+  - [Cold Start Function](#cold-start-function)
+  - [Results](#results)
 - [Prime Number Generator](#prime-number-generator)
-  - Information
-  - Architecture
-    - Amazon Web Services
-    - Google Cloud Platform
-    - Microsoft Azure
-  - Trigger Function
-  - Prime Number Generator Function
-  - Results
+  - [Information](#information-1)
+  - [Architecture](#architecture-1)
+    - [Amazon Web Services](#amazon-web-services-1)
+    - [Google Cloud Platform](#google-cloud-platform-1)
+    - [Microsoft Azure](#microsoft-azure-1)
+  - [Trigger Function](#trigger-function-1)
+  - [Prime Number Generator Function](#prime-number-generator-function)
+  - [Results](#results-1)
 
 ---
 
@@ -156,6 +156,8 @@ module.exports = (context, _req) => {
 TBA
 
 # Prime Number Generator
+
+## Information
 
 The prime number generator calculates the first 500,000 prime numbers in a non-efficient loop process.
 
